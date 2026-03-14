@@ -1061,9 +1061,7 @@ export default function App() {
         `}>
           {/* Desktop Logo */}
           <div className="hidden md:flex items-center gap-2.5 mb-6 px-1">
-            <div className="w-9 h-9 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold text-xl shadow-sm shadow-indigo-200 dark:shadow-indigo-900/50 transition-all hover:rotate-12">
-              C
-            </div>
+            <img src="/faviconcy.jpg" alt="Cyrene Kesayangan Indra" className="w-8 h-8 md:w-9 md:h-9 rounded-lg object-cover shadow-sm shadow-indigo-200 dark:shadow-indigo-900/50 transition-all hover:rotate-12" />
             <div>
               <h2 className="font-bold text-sm text-slate-800 dark:text-white leading-tight">Cyrene's Grimoire</h2>
               <p className="text-[9px] text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider">Productivity</p>
